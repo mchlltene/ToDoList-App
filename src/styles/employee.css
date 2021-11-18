@@ -1,0 +1,22 @@
+.employee-list {
+    border: 1px solid red;
+    max-width: 400px;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .employee-list img {
+    width: 64px;
+    object-fit: contain;
+    align-self: flex-start;
+  }
+  
+  .employee-list ul {
+    list-style-type: none;
+    padding-inline-start: 3px;
+  }
+  
+  .text-opacity {
+    opacity: 0.5;
+  }
